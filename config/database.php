@@ -8,7 +8,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'inventario_empresarial');
+define('DB_NAME', 'fundaec');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_PORT', 3306);
 
