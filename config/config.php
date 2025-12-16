@@ -10,13 +10,13 @@ if (session_status() === PHP_SESSION_NONE) {
 // Información de la aplicación
 define('APP_NAME', 'Sistema de Inventarios Empresarial');
 define('APP_VERSION', '1.0.0');
-define('APP_URL', 'http://localhost/inventario/');
+define('APP_URL', 'http://localhost/fundaec/');
 define('APP_PATH', realpath(dirname(dirname(__FILE__))));
 
 // Configuración de sesiones
 define('SESSION_LIFETIME', 3600); // 1 hora
 define('SESSION_PATH', APP_PATH . '/sessions/');
-define('SESSION_NAME', 'inventario_session');
+define('SESSION_NAME', 'fundaec_session');
 
 // Configuración de seguridad
 define('HASH_ALGORITMO', 'bcrypt');
